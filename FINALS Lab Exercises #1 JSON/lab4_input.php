@@ -4,7 +4,6 @@ $jsonInput = file_get_contents('php://input');
 $data = json_decode($jsonInput, true);
 
 if ($data) {
-    // Using htmlspecialchars to prevent XSS if printing to a browser
     echo "Username: " . htmlspecialchars($data['username']) . "<br>";
     echo "Password: " . htmlspecialchars($data['password']);
 } else {

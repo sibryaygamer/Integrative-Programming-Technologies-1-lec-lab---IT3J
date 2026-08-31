@@ -1,0 +1,11 @@
+<?php
+$student = [
+    "Name" => "Camayang, Bryan B.",
+    "Age" => 21,
+    "Course" => "BSIT"
+];
+
+$jsonString = json_encode($student);
+
+echo $jsonString;
+?>

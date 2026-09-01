@@ -1,0 +1,23 @@
+Questions for Reflection
+1.	What are the basic rules of XML you applied in this lab?
+
+●	The XML Declaration: Starting the document with <?xml version="1.0" encoding="UTF-8"?>.
+●	A Single Root Element: Wrapping all the data inside one main <students> tag.
+●	Proper Nesting: Ensuring tags are closed in the correct order (e.g., closing <id> before opening <name>).
+●	Closing All Tags: Every opening tag (like <student>) has a matching closing tag (</student>).
+●	Case Sensitivity: Ensuring tags match exactly (e.g., <name> and </name>, not </Name>).
+2.	Why does XML need a single root element? 
+
+XML documents are structured like a tree. The root element acts as the "trunk." Without a single starting point, a computer parser wouldn't know where the document begins or ends, making it impossible to read the data hierarchy correctly.
+
+3.	How does XML ensure interoperability? 
+
+XML is saved as plain text and follows strict, universal rules. Because it isn't tied to any specific operating system or programming language, a database running on a Windows server can easily generate XML that a mobile app on an iPhone can read and understand perfectly.
+
+
+
+XML Validation Reflection 
+
+This lab really showed me how crazy strict XML is compared to HTML. With HTML, you can mess up a bit and things usually still work fine. But XML doesn't let you get away with anything. Every single tag has to be closed, everything has to be nested perfectly, and it even cares if you use uppercase or lowercase letters.
+When I ran the validator tool, I saw how forgetting just one tiny slash ruins the whole document. It was honestly a little annoying at first. But I get why it has to be like that. Being this picky keeps all the data super clean. That way, different computer programs can actually read the files easily without getting confused or breaking.
+

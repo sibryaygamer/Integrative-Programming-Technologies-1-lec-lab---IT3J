@@ -1,0 +1,14 @@
+1. What are the main differences between XMLHttpRequest and Fetch API?
+Fetch is the newer way to get data, while XMLHttpRequest (XHR) is the older way. Fetch uses less code and is much easier to read. Also, with XHR, the code can get really messy and complicated. The only catch with Fetch is that it doesn't automatically fail if a web page is missing (like a 404 error), so you have to manually tell it to check if the response is "ok."
+
+2. Why is the Fetch API considered more modern and readable?
+Because it reads almost like plain English! Instead of the code jumping around in a confusing way, Fetch lets you write steps in a straight line: "Fetch this data, then do this, then do that." It is much cleaner and shorter, making it a lot easier for developers to read and fix.
+
+3. What is the purpose of the .then() and .catch() methods in Fetch?
+
+.then() tells your code what to do when things go right. It means, "Once you get the data successfully, then turn it into text, and then show it on the screen."
+
+.catch() is your safety net. If something goes wrong (like your internet cuts out), it "catches" the mistake and shows an error message instead of crashing your whole website.
+
+4. What happens when you send a POST request to the placeholder API?
+Because JSONPlaceholder is just a practice website, it fakes it! It takes your new post and gives you a success message with a new ID (like ID: 101). It acts exactly like a real server would, but it doesn't actually save your data to their real database. It just pretends to succeed so you can test if your code works.

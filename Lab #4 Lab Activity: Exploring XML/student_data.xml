@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+  <student>
+    <id>24175007</id>
+    <name>Camayang, Bryan B.</name>
+    <course>Bachelor of Science in Information Technology</course>
+    <year>3RD</year>
+  </student>
+  <student>
+    <id>24151736</id>
+    <name>Aurita, Jhoanna G.</name>
+    <course>Bachelor of Science in Psychology</course>
+    <year>3RD</year>
+  </student>
+</students>
